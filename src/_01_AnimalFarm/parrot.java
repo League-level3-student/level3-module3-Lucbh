@@ -1,12 +1,12 @@
 package _01_AnimalFarm;
 
-public class elephant extends Animal{
-
+public class parrot extends Animal{
+	
 	@Override
 	public void makeNoise() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("brbrroooo");
+		System.out.println("hellohello");
 		
 	}
 
@@ -14,8 +14,9 @@ public class elephant extends Animal{
 	public void eat() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("elephant is eating");
+		System.out.println("parrot is eating");
 		
 	}
+
 
 }

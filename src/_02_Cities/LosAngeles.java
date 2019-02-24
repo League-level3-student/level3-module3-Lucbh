@@ -9,7 +9,13 @@ public class LosAngeles extends City{
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		
+		double tax;
+		tax = (population*growthRate)*(growthRate/2);
+		
+		System.out.println(tax + " from Los Angeles");
+		
+		return tax;
 	}
 	
 }

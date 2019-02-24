@@ -8,7 +8,12 @@ public class Atlanta extends City{
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		double tax;
+		
+		tax = (population*growthRate)*(2*growthRate);
+		
+		System.out.println(tax + " from Atlanta");
+		return tax;
 	}
 
 }

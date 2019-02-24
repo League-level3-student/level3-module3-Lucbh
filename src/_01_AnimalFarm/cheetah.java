@@ -3,7 +3,7 @@ package _01_AnimalFarm;
 public class cheetah extends Animal{
 
 	@Override
-	public static void makeNoise() {
+	public void makeNoise() {
 		// TODO Auto-generated method stub
 		System.out.println("meow");
 		
